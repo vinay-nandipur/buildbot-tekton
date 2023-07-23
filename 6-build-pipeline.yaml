@@ -24,7 +24,7 @@ spec:
               workspace: shared-workspace 
         params:
           - name: url
-            value: https://github.com/ilan-pinto/buildbot-tekton.git
+            value: https://github.com/vinay-nandipur/buildbot-tekton
           - name: revision 
             value: "$(params.branch-name)"  
           - name: subdirectory
